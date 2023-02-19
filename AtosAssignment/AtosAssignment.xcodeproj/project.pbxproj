@@ -13,9 +13,6 @@
 		8473570F29A213D60054C349 /* AtosAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8473570D29A213D60054C349 /* AtosAssignment.xcdatamodeld */; };
 		8473571129A213D80054C349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8473571029A213D80054C349 /* Assets.xcassets */; };
 		8473571429A213D80054C349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8473571229A213D80054C349 /* LaunchScreen.storyboard */; };
-		8473571F29A213D90054C349 /* AtosAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473571E29A213D90054C349 /* AtosAssignmentTests.swift */; };
-		8473572929A213D90054C349 /* AtosAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473572829A213D90054C349 /* AtosAssignmentUITests.swift */; };
-		8473572B29A213D90054C349 /* AtosAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473572A29A213D90054C349 /* AtosAssignmentUITestsLaunchTests.swift */; };
 		8473573D29A215010054C349 /* ATLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473573C29A215010054C349 /* ATLoginModel.swift */; };
 		8473573F29A215380054C349 /* ATLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473573E29A215380054C349 /* ATLoginViewController.swift */; };
 		8473574129A216250054C349 /* ATLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473574029A216250054C349 /* ATLoginViewModel.swift */; };
@@ -33,23 +30,6 @@
 		8473577629A2A9810054C349 /* ATFavouritePostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473577529A2A9810054C349 /* ATFavouritePostModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8473571B29A213D90054C349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 847356F929A213D60054C349 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8473570029A213D60054C349;
-			remoteInfo = AtosAssignment;
-		};
-		8473572529A213D90054C349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 847356F929A213D60054C349 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8473570029A213D60054C349;
-			remoteInfo = AtosAssignment;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		8473570129A213D60054C349 /* AtosAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtosAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8473570429A213D60054C349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,11 +39,6 @@
 		8473571029A213D80054C349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8473571329A213D80054C349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8473571529A213D80054C349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8473571A29A213D90054C349 /* AtosAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtosAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8473571E29A213D90054C349 /* AtosAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtosAssignmentTests.swift; sourceTree = "<group>"; };
-		8473572429A213D90054C349 /* AtosAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtosAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8473572829A213D90054C349 /* AtosAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtosAssignmentUITests.swift; sourceTree = "<group>"; };
-		8473572A29A213D90054C349 /* AtosAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtosAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8473573C29A215010054C349 /* ATLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLoginModel.swift; sourceTree = "<group>"; };
 		8473573E29A215380054C349 /* ATLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLoginViewController.swift; sourceTree = "<group>"; };
 		8473574029A216250054C349 /* ATLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATLoginViewModel.swift; sourceTree = "<group>"; };
@@ -89,20 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8473571729A213D90054C349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8473572129A213D90054C349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,8 +73,6 @@
 				8473575E29A226410054C349 /* Posts+CoreDataClass.swift */,
 				8473575F29A226410054C349 /* Posts+CoreDataProperties.swift */,
 				8473570329A213D60054C349 /* AtosAssignment */,
-				8473571D29A213D90054C349 /* AtosAssignmentTests */,
-				8473572729A213D90054C349 /* AtosAssignmentUITests */,
 				8473570229A213D60054C349 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				8473570129A213D60054C349 /* AtosAssignment.app */,
-				8473571A29A213D90054C349 /* AtosAssignmentTests.xctest */,
-				8473572429A213D90054C349 /* AtosAssignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,23 +102,6 @@
 				8473570D29A213D60054C349 /* AtosAssignment.xcdatamodeld */,
 			);
 			path = AtosAssignment;
-			sourceTree = "<group>";
-		};
-		8473571D29A213D90054C349 /* AtosAssignmentTests */ = {
-			isa = PBXGroup;
-			children = (
-				8473571E29A213D90054C349 /* AtosAssignmentTests.swift */,
-			);
-			path = AtosAssignmentTests;
-			sourceTree = "<group>";
-		};
-		8473572729A213D90054C349 /* AtosAssignmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8473572829A213D90054C349 /* AtosAssignmentUITests.swift */,
-				8473572A29A213D90054C349 /* AtosAssignmentUITestsLaunchTests.swift */,
-			);
-			path = AtosAssignmentUITests;
 			sourceTree = "<group>";
 		};
 		8473573729A214360054C349 /* LogIn */ = {
@@ -256,42 +196,6 @@
 			productReference = 8473570129A213D60054C349 /* AtosAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8473571929A213D90054C349 /* AtosAssignmentTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8473573129A213D90054C349 /* Build configuration list for PBXNativeTarget "AtosAssignmentTests" */;
-			buildPhases = (
-				8473571629A213D90054C349 /* Sources */,
-				8473571729A213D90054C349 /* Frameworks */,
-				8473571829A213D90054C349 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8473571C29A213D90054C349 /* PBXTargetDependency */,
-			);
-			name = AtosAssignmentTests;
-			productName = AtosAssignmentTests;
-			productReference = 8473571A29A213D90054C349 /* AtosAssignmentTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8473572329A213D90054C349 /* AtosAssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8473573429A213D90054C349 /* Build configuration list for PBXNativeTarget "AtosAssignmentUITests" */;
-			buildPhases = (
-				8473572029A213D90054C349 /* Sources */,
-				8473572129A213D90054C349 /* Frameworks */,
-				8473572229A213D90054C349 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8473572629A213D90054C349 /* PBXTargetDependency */,
-			);
-			name = AtosAssignmentUITests;
-			productName = AtosAssignmentUITests;
-			productReference = 8473572429A213D90054C349 /* AtosAssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -304,14 +208,6 @@
 				TargetAttributes = {
 					8473570029A213D60054C349 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					8473571929A213D90054C349 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 8473570029A213D60054C349;
-					};
-					8473572329A213D90054C349 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 8473570029A213D60054C349;
 					};
 				};
 			};
@@ -329,8 +225,6 @@
 			projectRoot = "";
 			targets = (
 				8473570029A213D60054C349 /* AtosAssignment */,
-				8473571929A213D90054C349 /* AtosAssignmentTests */,
-				8473572329A213D90054C349 /* AtosAssignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,20 +237,6 @@
 				8473571429A213D80054C349 /* LaunchScreen.storyboard in Resources */,
 				8473571129A213D80054C349 /* Assets.xcassets in Resources */,
 				8473570C29A213D60054C349 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8473571829A213D90054C349 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8473572229A213D90054C349 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,37 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8473571629A213D90054C349 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8473571F29A213D90054C349 /* AtosAssignmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8473572029A213D90054C349 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8473572B29A213D90054C349 /* AtosAssignmentUITestsLaunchTests.swift in Sources */,
-				8473572929A213D90054C349 /* AtosAssignmentUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8473571C29A213D90054C349 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8473570029A213D60054C349 /* AtosAssignment */;
-			targetProxy = 8473571B29A213D90054C349 /* PBXContainerItemProxy */;
-		};
-		8473572629A213D90054C349 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8473570029A213D60054C349 /* AtosAssignment */;
-			targetProxy = 8473572529A213D90054C349 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8473570A29A213D60054C349 /* Main.storyboard */ = {
@@ -612,78 +462,6 @@
 			};
 			name = Release;
 		};
-		8473573229A213D90054C349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AtosAssignmentTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtosAssignment.app/AtosAssignment";
-			};
-			name = Debug;
-		};
-		8473573329A213D90054C349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AtosAssignmentTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtosAssignment.app/AtosAssignment";
-			};
-			name = Release;
-		};
-		8473573529A213D90054C349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AtosAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AtosAssignment;
-			};
-			name = Debug;
-		};
-		8473573629A213D90054C349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AtosAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AtosAssignment;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -701,24 +479,6 @@
 			buildConfigurations = (
 				8473572F29A213D90054C349 /* Debug */,
 				8473573029A213D90054C349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8473573129A213D90054C349 /* Build configuration list for PBXNativeTarget "AtosAssignmentTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8473573229A213D90054C349 /* Debug */,
-				8473573329A213D90054C349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8473573429A213D90054C349 /* Build configuration list for PBXNativeTarget "AtosAssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8473573529A213D90054C349 /* Debug */,
-				8473573629A213D90054C349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

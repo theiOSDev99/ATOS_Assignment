@@ -16,6 +16,8 @@ class ATPostViewController : UIViewController {
     let postViewModel = ATPostViewModel()
     var posts: [Posts] = []
 
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,7 @@ class ATPostViewController : UIViewController {
             self.posts = posts ?? []
             DispatchQueue.main.async {
                 self.postTableView.reloadData()
+                self.activityIndicator.isHidden = true
             }
         }
         postViewModel.getData()

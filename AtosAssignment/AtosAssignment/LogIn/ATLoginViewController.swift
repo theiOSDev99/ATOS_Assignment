@@ -66,7 +66,7 @@ class ATLoginViewController: UITableViewController {
         if validEmail && validPassword {
             buttonLogin.isEnabled = true
         } else {
-            buttonLogin.isEnabled = true
+            buttonLogin.isEnabled = false
         }
     }
     
@@ -76,6 +76,7 @@ class ATLoginViewController: UITableViewController {
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let homeTabVC = sb.instantiateViewController(withIdentifier: "ATHomeTabViewController" ) //Best practie is to use string for constants
+        
         UIApplication.shared.keyWindow?.rootViewController = homeTabVC
         UIApplication.shared.keyWindow?.makeKeyAndVisible()
     }

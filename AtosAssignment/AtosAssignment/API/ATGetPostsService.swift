@@ -37,9 +37,13 @@ class ATGetPostsService {
             switch response.result {
             case .success(let data):
                 do {
-                    var  modelArray: [Posts] = try JSONDecoder().decode([Posts].self, from: data as! Data)
-                    //Saving received data to core data
-                    ATCoreDataPostsService.shared.saveCoreDataChanges()
+                    
+                    if let theData = data as? Data {
+                        //Even though respone value of below is not assigned to anything this will create core data models on context
+                        try JSONDecoder().decode([Posts].self, from: theData)
+                        //Saving received data to core data by saving context
+                        ATCoreDataPostsService.shared.saveCoreDataChanges()
+                    }
                 }
                 catch {
                     print("error in json")

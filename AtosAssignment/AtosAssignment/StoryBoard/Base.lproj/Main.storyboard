@@ -101,7 +101,7 @@
                                                     <rect key="frame" x="20" y="10" width="374" height="40"/>
                                                     <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -197,7 +197,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zgo-aF-XI2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.094117647060000004" green="0.63921568630000003" blue="0.60784313729999995" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="MuU-0w-849" kind="relationship" relationship="viewControllers" id="DFF-26-qx6"/>
@@ -288,6 +288,11 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="1bj-ky-BJg">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.094117647060000004" green="0.63921568630000003" blue="0.60784313729999995" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="531-rc-Baj"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -298,8 +303,11 @@
                             <constraint firstAttribute="bottom" secondItem="wL8-LL-Kcg" secondAttribute="bottom" id="JNF-KW-mR6"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Posts" image="list.bullet.below.rectangle" catalog="system" id="nto-Hb-aj0"/>
+                    <tabBarItem key="tabBarItem" title="Posts" image="list.bullet.below.rectangle" catalog="system" id="nto-Hb-aj0">
+                        <color key="badgeColor" red="0.094117647060000004" green="0.63921568630000003" blue="0.60784313729999995" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
                     <connections>
+                        <outlet property="activityIndicator" destination="1bj-ky-BJg" id="cXm-s9-8bk"/>
                         <outlet property="postTableView" destination="wL8-LL-Kcg" id="pHd-dZ-o1M"/>
                     </connections>
                 </viewController>
@@ -397,7 +405,9 @@
                             <constraint firstItem="Cu1-HG-6ge" firstAttribute="top" secondItem="2eN-cC-ynn" secondAttribute="top" id="hJ9-2J-G2q"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favourites" image="star.fill" catalog="system" id="krc-ph-YPZ"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" image="star.fill" catalog="system" id="krc-ph-YPZ">
+                        <color key="badgeColor" red="0.094117647060000004" green="0.63921568630000003" blue="0.60784313729999995" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="favPostTableView" destination="Cu1-HG-6ge" id="30x-zy-3Ev"/>
                     </connections>
